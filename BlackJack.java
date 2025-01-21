@@ -39,6 +39,8 @@ public class BlackJack {
     private static void shuffleDeck() {
         Random random = new Random();
         for (int i = 0; i < DECK.length; i++) {
+            
+            //switch algorithm
             int index = random.nextInt(DECK.length);
             int temp = DECK[i];
             DECK[i] = DECK[index];
