@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class BlackJack {
 
+    //Declares global varibles for all cards in deck
     private static final String[] SUITS = { "Hearts", "Diamonds", "Clubs", "Spades" };
     private static final String[] RANKS = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King",
             "Ace" };
